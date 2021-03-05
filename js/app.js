@@ -17,12 +17,13 @@ for (var i = 0; i < data.length; i++) {
   var foodType = data[i].strCategory;
   var thumbnail = data[i].strCategoryThumb;
   var description = data[i].strCategoryDescription;
+  var cardImage = document.getElementById("card-image");
+  cardImage.setAttribute("src", thumbnail);
+  document.getElementById('title').innerHTML = foodType;
+  document.getElementById('desc').innerHTML = description;
   }
   console.log(foodType, thumbnail, description);
-  var cardImage = document.getElementById("#card-image");
-  cardImage.onload(function() {
-    
-  })
+
 }
 )
 .catch(error => console.log(error));
