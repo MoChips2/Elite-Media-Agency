@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Elite Media Design</title>
 </head>
@@ -82,15 +83,45 @@
       </div>
     </section>
     <section class="food" id="food">
-
+      <h1>Food</h1>
+      <div class="w3-container">
+        <div class="w3-card-4" style="width:50%">
+          <header class="w3-container w3-light-grey">
+            <h3>John Doe</h3>
+          </header>
+          <div class="w3-container">
+            <img id="card-image" src="/images/ids.jpg" alt="" class="w3-left w3-square w3-margin-right" style="width:200px">
+            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="contact" id="contact">
-
+      <div class="form-container">
+        <form action="#">
+          <div class="form-left">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-left">
+            <label for="">Email:</label>
+            <input type="text" name="email" id="email">
+          </div>
+          <div class="form-left">
+            <label for="">Message:</label>
+            <input type="text" name="message" id="message">
+          </div>
+          <input type="button" value="Submit" id="cta-btn">
+        </form>
+      </div>
     </section>
   </main>
   <footer class="footer">
-
+    <p>Phone: 763-123-1234</p>
+    <p>Email: info@elitemediadesign.com</p>
+    <p>Address: 80 S 8th St, Suite #005 Minneapolis, MN 55402</p>
   </footer>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="/js/app.js"></script>
 </body>
 

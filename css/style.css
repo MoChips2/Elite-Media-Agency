@@ -139,7 +139,8 @@ border-radius: 4em;
   color: var(--secondary);
   text-align: center;
   font-size: 50px;
-  text-shadow:5px 5px 5px #002F6C;
+  font-weight: 400;
+  text-shadow:5px 5px 10px #002F6C;
 }
 
 .hero-bg p {
@@ -324,7 +325,7 @@ border-radius: 4em;
   }
 
   .partner-container img {
-    width: 50%;
+    width: 75%;
     padding: 1em 0 0 6em;
   }
 }
@@ -334,4 +335,92 @@ border-radius: 4em;
     width: 75%;
     padding: 1em 0 1em 2em;
   }
+ }
+
+ 
+ /*Food Section*/
+ .food h1 {
+    display: block;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: var(--primary);
+ }
+
+ .food {
+   background-color: var(--primary);
+   padding: 2em;
+ }
+
+ .w3-container  {
+   background-color: white;
+ }
+
+ /*Contact Section*/
+
+
+ .form-container {
+  background-color: white;
+  margin: 2em -1em 0;
+  padding: 2em;
+}
+
+label {
+  color: var(--primary);
+  font-weight: bold;
+  display: block;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+}
+
+input[type=text] {
+  border: 1px solid #707070;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: .5em;
+  margin-top: 1em;
+}
+
+.form-container p {
+  color: gray;
+  margin-bottom: 1.5em;
+  margin-top: .3em;
+  font-weight: normal;
+  font-size: .9em;
+}
+
+input[type=button] {
+  background-color: var(--secondary);
+  border: none;
+  width: 100%;
+  padding: 1em 0;
+  margin: 3em 0;
+  border-radius: .5em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+ 
+}
+
+input[type=button]:hover {
+  background-color:#df8b15;
+  cursor: pointer;
+}
+
+
+ /*Footer*/
+
+ .footer {
+   margin: 0;
+   padding: 1em;
+   color: white;
+   background-color: var(--primary);
+   text-align: right;
+ }
+
+ .footer p{
+  margin: 0;
+  padding: .5em;
  }
